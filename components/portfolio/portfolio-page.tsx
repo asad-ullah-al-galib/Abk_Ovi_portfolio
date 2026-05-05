@@ -327,8 +327,8 @@ export function PortfolioPage({
                   {portfolioData.name}
                 </p>
               </div>
-                <h1 className="font-display mt-1.5 max-w-3xl text-2xl md:text-3xl font-black leading-[1.1] tracking-tighter text-neutral-950 dark:text-neutral-50 text-balance">
-                  Human resources leadership built on operational discipline and people-first execution
+              <h1 className="font-display mt-1.5 max-w-3xl text-2xl md:text-3xl font-black leading-[1.1] tracking-tighter text-neutral-950 dark:text-neutral-50 text-balance">
+                Human resources leadership built on operational discipline and people-first execution
               </h1>
               <p className="mt-2 max-w-4xl text-sm font-medium leading-relaxed text-neutral-500 dark:text-neutral-300">
                 Assistant Manager - Human Resources at{" "}

@@ -36,7 +36,7 @@ export function BlogSection({ posts = [] }: BlogSectionProps) {
     status: `${Math.ceil(post.content.length / 1000)} min read`,
     tags: post.tags.map(tag => (
       <button
-        key={tag} 
+        key={tag}
         className="hover:text-theme-main transition-colors"
         onClick={(e: React.MouseEvent) => {
           e.preventDefault();
