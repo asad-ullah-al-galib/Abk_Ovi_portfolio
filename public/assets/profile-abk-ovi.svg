@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(176 140) rotate(52) scale(250 220)">
+      <stop stop-color="#A7F3D0" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#A7F3D0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="256" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="256" fill="url(#glow)"/>
+  <circle cx="256" cy="198" r="74" fill="#F8FAFC" fill-opacity="0.12"/>
+  <path d="M150 378C150 318.297 197.297 270 256 270C314.703 270 362 318.297 362 378V394C362 408.359 350.359 420 336 420H176C161.641 420 150 408.359 150 394V378Z" fill="#F8FAFC" fill-opacity="0.14"/>
+  <text x="256" y="238" text-anchor="middle" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" letter-spacing="4">ABK</text>
+  <text x="256" y="300" text-anchor="middle" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="10">OVI</text>
+</svg>
