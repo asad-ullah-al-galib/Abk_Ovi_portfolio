@@ -1,0 +1,18 @@
+[build]
+command = "pnpm build"
+functions = "netlify/functions"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "20"
+NEXT_PUBLIC_VERCEL_ENV = "production"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[redirects]]
+from = "/_next/static/*"
+to = "/_next/static/:splat"
+status = 200

@@ -1,23 +1,3 @@
-type ContributionDay = {
-  date: string;
-  contributionCount: number;
-  color: string;
-};
-
-type Week = {
-  firstDay: string;
-  contributionDays: ContributionDay[];
-};
-
-type Repo = {
-  name: string;
-  html_url: string;
-  description: string;
-  stars: number;
-  forks: number;
-  language: string | null;
-  tech?: string[];
-};
 import React, { type ComponentType, type ReactNode } from "react";
 import Script from "next/script";
 import Link from "next/link";
@@ -48,8 +28,8 @@ import { SkillTag } from "@/components/ui/skill-tag";
 import TestimonialsEditorial from "../ui/editorial-testimonial";
 
 const calButtonProps = {
-  "data-cal-link": "connectwithshuvo/30min",
-  "data-cal-namespace": "30min",
+  "data-cal-link": "abk-ovi/meeting",
+  "data-cal-namespace": "meeting",
   "data-cal-config":
     '{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}',
   type: "button" as const

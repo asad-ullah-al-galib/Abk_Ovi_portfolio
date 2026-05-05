@@ -1,8 +1,22 @@
-type Award = {
+type Task = {
+    id: string;
     title: string;
     description: string;
-    dateRange: string;
-    institution: string;
+    status: string;
+    priority: string;
+    level: number;
+    dateRange?: string;
+    institution?: string;
+    dependencies: string[];
+    subtasks: Array<{
+        id: string;
+        title: string;
+        description: string;
+        status: string;
+        priority: string;
+        tools?: string[];
+    }>;
+    tools?: string[];
 };
 
 export const portfolioData = {
@@ -314,5 +328,5 @@ I value disciplined work, clear communication, and measurable results. From corp
         },
     ],
 
-    awardsRoadmap: [] as Award[],
+    awardsRoadmap: [] as Task[],
 };
