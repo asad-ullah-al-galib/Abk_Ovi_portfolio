@@ -46,6 +46,12 @@ import { LogoCloud } from "@/components/ui/logo-cloud-3";
 import FeatureSection, { FeatureCard } from "@/components/ui/feature-sections";
 type Icon = ComponentType<{ className?: string }>;
 
+type Reference = {
+  name: string;
+  summary: string;
+  title: string;
+};
+
 const expertise: Array<{
   title: string;
   icon: Icon;
@@ -180,7 +186,7 @@ const workData = [
   }
 ];
 
-const references = [];
+const references: Reference[] = [];
 
 import { BlogSection } from "./blog";
 
