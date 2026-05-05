@@ -52,6 +52,27 @@ type Reference = {
   title: string;
 };
 
+type Day = {
+  date: string;
+  contributionCount: number;
+  color: string;
+};
+
+type Week = {
+  firstDay: string;
+  contributionDays: Day[];
+};
+
+type Repo = {
+  name: string;
+  html_url: string;
+  description: string;
+  stars: number;
+  forks: number;
+  language: string | null;
+  tech?: string[];
+};
+
 const expertise: Array<{
   title: string;
   icon: Icon;
